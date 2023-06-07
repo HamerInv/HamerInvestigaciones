@@ -1,16 +1,16 @@
 import { Box, Grid, Typography } from '@mui/material';
 
-
-export const QS = () => {
+export const S = () => {
   return (
     <>
       <Grid
-        id='quienesSomos'
+        id='servicios'
         container
         sx={{
             display: 'flex',
             justifyContent: 'center',
-            padding: {xs: '20% 5% 10%', lg: '7% 5% 5%'}
+            textAlign: {xs:'center'},
+            padding: {xs: '10% 5%', lg: '5%'}
         }}
       >
         <Typography
@@ -21,7 +21,9 @@ export const QS = () => {
                 color: 'secondary.main',
                 marginBottom: {xs: '10%', lg: '4%'}
             }}
-        > Quienes Somos </Typography>
+        > 
+            Nuestros Servicios 
+        </Typography>
         <Box>
             <Typography
                 sx={{

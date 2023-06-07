@@ -1,6 +1,8 @@
 import Fondo from '../../assets/fondoBlackboard.jpg';
 import { CT } from '../body/comoTrabajamos/CT';
+import { H } from '../body/herramientas/H';
 import { QS } from '../body/quienesSomos/QS';
+import { S } from '../body/servicios/S';
 import { NavBar } from '../navBar/NavBar';
 import { SliderComponent } from '../slider/SliderComponent';
 
@@ -26,6 +28,9 @@ export const Page = () => {
 
         <CT/>
 
+        <S/>
+
+        <H/>
     </div>
   )
 }

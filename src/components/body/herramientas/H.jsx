@@ -1,7 +1,6 @@
 import { Box, Grid, Typography } from '@mui/material';
-import Foto from '../../../assets/foto4.jpg';
 
-export const CT = () => {
+export const H = () => {
   return (
     <>
       <Grid
@@ -23,7 +22,7 @@ export const CT = () => {
                   marginBottom: {xs: '10%', lg: '4%'}
               }}
             >
-                ¿Cómo trabajamos?
+                Herramientas con las que contamos
             </Typography>
             <Box>
                 <Typography
