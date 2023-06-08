@@ -1,6 +1,6 @@
 import { Box, List, ListItem, ListItemButton, ListItemIcon } from '@mui/material';
 import { Home, LabelImportant, AddIcCall } from '@mui/icons-material';
-import Logo from '../../assets/logo.png'
+import Logo from '../../assets/img/logo.png'
 
 export const NavListDrawer = () => {
     return (
@@ -21,7 +21,7 @@ export const NavListDrawer = () => {
             >
               <ListItem>
                 <ListItemIcon><Home/></ListItemIcon>
-                <ListItemButton href="#">Home</ListItemButton>
+                <ListItemButton href="#home">Home</ListItemButton>
               </ListItem>
               <ListItem>
                 <ListItemIcon><LabelImportant/></ListItemIcon>
@@ -29,15 +29,15 @@ export const NavListDrawer = () => {
               </ListItem>
               <ListItem>
                 <ListItemIcon><LabelImportant/></ListItemIcon>
-                <ListItemButton href="#">¿Como trabajamos?</ListItemButton>
+                <ListItemButton href="#comoTrabajamos">¿Como trabajamos?</ListItemButton>
               </ListItem>
               <ListItem>
                 <ListItemIcon><LabelImportant/></ListItemIcon>
-                <ListItemButton href="#">Servicios y Herramientas.</ListItemButton>
+                <ListItemButton href="#servicios">Servicios y Herramientas.</ListItemButton>
               </ListItem>
               <ListItem>
                 <ListItemIcon><LabelImportant/></ListItemIcon>
-                <ListItemButton href="#">Contratacion.</ListItemButton>
+                <ListItemButton href="#contratacion">Contratacion.</ListItemButton>
               </ListItem>
               <ListItem>
                 <ListItemIcon><AddIcCall/></ListItemIcon>

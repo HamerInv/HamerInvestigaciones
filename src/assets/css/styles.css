@@ -1,0 +1,16 @@
+.img{
+    width: 100%;
+    height: 100vh;
+}
+.logo{
+    width: 100%;
+    height: 100%;
+    margin: 15% 0 0 3%;
+}
+.img-servicios{
+    width: 100%;
+    height: 100%;
+}
+.slick-dots{
+    bottom: 10px;
+}
