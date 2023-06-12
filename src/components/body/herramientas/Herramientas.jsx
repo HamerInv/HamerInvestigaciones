@@ -8,7 +8,7 @@ export const Herramientas = () => {
         sx={{
             display: {xs:'flex'},
             justifyContent: {xs:'center', lg: 'start'},
-            padding: {xs: '40% 5% 1%', lg: '3% 5% 5%'},
+            padding: {xs: '10% 5%', lg: '3% 5% 5%'},
             textAlign: {xs:'center'},
         }}
       >

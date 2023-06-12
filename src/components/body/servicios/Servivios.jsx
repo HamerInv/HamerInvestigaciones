@@ -36,7 +36,7 @@ export const Servivios = () => {
             gridTemplateColumns:{xs: '1fr', lg:'1fr 1fr 1fr 1fr'},
             gap:{xs:'1%', lg:'3%'},
             rowGap:'6%',
-            p: ' 0 5% 5%'
+            p: {xs:'5% 5% 45%', lg:' 0 5% 7%'}
           }}
         >
           <Box
@@ -51,7 +51,7 @@ export const Servivios = () => {
             <Typography
               sx={{
                 color: 'secondary.main',
-                fontSize: {xs:'1.8rem', lg:'2rem'}, 
+                fontSize: {xs:'1.8rem', lg:'1.6rem'},
                 fontWeight: '500',
                 textTransform: 'uppercase', 
                 fontFamily: 'Montserrat',

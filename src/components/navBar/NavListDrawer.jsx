@@ -41,7 +41,7 @@ export const NavListDrawer = () => {
               </ListItem>
               <ListItem>
                 <ListItemIcon><AddIcCall/></ListItemIcon>
-                <ListItemButton href="#">Contacto</ListItemButton>
+                <ListItemButton href="#contacto">Contacto</ListItemButton>
               </ListItem>
               <Box>
                 <img src={Logo} alt="Logo Hamer Investigaciones" className='logo'/>

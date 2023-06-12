@@ -37,9 +37,9 @@ export const SliderComponent = ({
     slidesToScroll: 1,
     nextArrow: <Arrow />,
     prevArrow: <Arrow />,
-    autoplay: false,
+    autoplay: true,
     speed: 2000,
-    autoplaySpeed: 5000,
+    autoplaySpeed: 4000,
   };
 
     return (

@@ -9,7 +9,7 @@ export const ComoTrabajamos = () => {
         sx={{
             display: {xs:'flex'},
             justifyContent: {xs:'center', lg: 'start'},
-            padding: {xs: '0 5%', lg: '4% 5%'},
+            padding: {xs: '5% 5% 10%', lg: '4% 5%'},
             textAlign: {xs:'center'},
         }}
       >

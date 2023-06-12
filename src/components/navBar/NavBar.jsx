@@ -28,7 +28,7 @@ export const NavBar = () => {
             <Button href="#comoTrabajamos">¿Como trabajamos?</Button>
             <Button href="#servicios">Servicios y Herramientas</Button>
             <Button href="#contratacion">Contratacion</Button>
-            <Button href="#">Contacto</Button>
+            <Button href="#contacto">Contacto</Button>
           </Toolbar>
         </AppBar>
         <Button 

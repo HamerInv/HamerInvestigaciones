@@ -1,5 +1,3 @@
-import Fondo from '../../assets/img/fondoBlackboard.jpg';
-import Lampara from '../../assets/img/fondoLampara.jpg';
 import { NavBar } from '../navBar/NavBar';
 import { SliderComponent } from '../slider/SliderComponent';
 import { QuienesSomos } from '../body/quienesSomos/QuienesSomos';
@@ -14,12 +12,12 @@ const styles = {
     fondoStyle: {
     backgroundColor: '#EFE7DD',
     width: '100%',
-    height:'100%'
+    height:'100%',
     },
     bgStyle: {
       backgroundColor: '#9B4922',
       width: '100%',
-      height:'100%'
+      height:'100%',
     },
     bgBlackStyle:{
       backgroundColor: '#000',
@@ -44,12 +42,17 @@ export const Page = () => {
 
           <Herramientas/>
         </div>
+
         <div style={styles.bgStyle}>
           <Contratacion/>
-        
+
           <Contacto/>
+        </div>  
+
+        <div style={styles.fondoStyle}>
+
+          <Footer/>
         </div>
-        <Footer/>
     </div>
   )
 }

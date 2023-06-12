@@ -10,7 +10,7 @@ export const Contratacion = () => {
           display: 'flex',
           justifyContent: 'center',
           textAlign: {xs:'center'},
-          padding: {xs: '7% 5%', lg: '4% 5% 2%'},
+          padding: {xs: '7% 5%', lg: '4% 5%'},
         }}
       >
         <Typography
