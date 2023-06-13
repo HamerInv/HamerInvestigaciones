@@ -33,7 +33,7 @@ export const NavListDrawer = () => {
               </ListItem>
               <ListItem>
                 <ListItemIcon><LabelImportant/></ListItemIcon>
-                <ListItemButton href="#servicios">Servicios y Herramientas.</ListItemButton>
+                <ListItemButton href="#servicios">Opciones y Herramientas.</ListItemButton>
               </ListItem>
               <ListItem>
                 <ListItemIcon><LabelImportant/></ListItemIcon>

@@ -35,7 +35,7 @@ export const Servivios = ({
                 marginBottom: {xs: '10%', lg: '4%'}
             }}
         > 
-            Nuestros Servicios 
+            Nuestras Opciones 
         </Typography>
       </Grid>
 

@@ -26,7 +26,7 @@ export const NavBar = () => {
           >
             <Button href="#quienesSomos">Quienes Somos</Button>
             <Button href="#comoTrabajamos">¿Como trabajamos?</Button>
-            <Button href="#servicios">Servicios y Herramientas</Button>
+            <Button href="#servicios">Opciones y Herramientas</Button>
             <Button href="#contratacion">Contratacion</Button>
             <Button href="#contacto">Contacto</Button>
           </Toolbar>
