@@ -1,6 +1,9 @@
 import { Box, Grid, Typography } from '@mui/material';
 
-export const Contratacion = () => {
+export const Contratacion = ({
+  titulo = 'Contratación del servicio',
+  p = 'Los presupuestos se enviarán en el día. Se requiere un pago inicial del 50% al contratar, y el resto se abona a la entrega del trabajo finalizado. Si se encuentra en otra provincia o país limítrofe, proporcionaremos nuestra cuenta bancaria para realizar el depósito correspondiente al presupuesto. Los resultados de nuestro trabajo se entregarán en CD, pen drive o por correo electrónico, según las preferencias del cliente.'
+}) => {
   return (
     <>
       <Grid
@@ -22,7 +25,7 @@ export const Contratacion = () => {
               marginBottom: {xs: '10%', lg: '4%'}
           }}
         >
-            Contratación del servicio
+            {titulo}
         </Typography>
         <Box>
             <Typography
@@ -32,7 +35,8 @@ export const Contratacion = () => {
                     fontFamily: 'Montserrat',
                     color: 'fourth.main'
                 }}
-            > Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusamus deserunt cumque eos expedita. Inventore assumenda dolores aliquid alias quibusdam sapiente provident ex aperiam! Tempore magnam enim esse debitis adipisci. Dolorem. 
+            > 
+            {p} 
             </Typography>
         </Box>
       </Grid>

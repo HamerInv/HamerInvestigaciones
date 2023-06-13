@@ -1,7 +1,10 @@
 import { Box, Grid, Typography } from '@mui/material';
 
 
-export const QuienesSomos = () => {
+export const QuienesSomos = ({
+  titulo = 'Quienes Somos',
+  p = 'HAMER INVESTIGACIONES es una empresa argentina especializada en investigaciones y seguimientos, se destaca en casos de infidelidades y localización de personas. Garantizamos un servicio profesional, preciso y discreto, utilizando técnicas vanguardistas y recursos avanzados. Nuestro compromiso es brindar resultados confiables y confidenciales, cumpliendo las expectativas de nuestros clientes. Confíe en nuestro equipo de expertos para resolver sus inquietudes de manera eficiente.'
+}) => {
   return (
     <>
       <Grid
@@ -10,7 +13,7 @@ export const QuienesSomos = () => {
         sx={{
             display: 'flex',
             justifyContent: 'center',
-            padding: {xs: '20% 5% 10%', lg: '7% 5% 5%'}
+            padding: {xs: '20% 5% 10%', lg: '7% 5% 2%'}
         }}
       >
         <Typography
@@ -21,7 +24,7 @@ export const QuienesSomos = () => {
                 color: 'primary.main',
                 marginBottom: {xs: '10%', lg: '4%'}
             }}
-        > Quienes Somos </Typography>
+        >{titulo}</Typography>
         <Box>
             <Typography
                 sx={{
@@ -31,7 +34,7 @@ export const QuienesSomos = () => {
                     color: 'fourth.main'
                 }}
             > 
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusamus deserunt cumque eos expedita. Inventore assumenda dolores aliquid alias quibusdam sapiente provident ex aperiam! Tempore magnam enim esse debitis adipisci. Dolorem. 
+            {p}
             </Typography>
         </Box>
       </Grid>

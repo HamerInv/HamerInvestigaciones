@@ -4,7 +4,16 @@ import Foto5 from '../../../assets/img/foto5.jpg';
 import Foto6 from '../../../assets/img/foto6.jpg';
 import Foto7 from '../../../assets/img/foto7.jpg';
 
-export const Servivios = () => {
+export const Servivios = ({
+  titulo1 = 'INFIDELIDADES',
+  p1 = 'Nos especializamos en parejas, gracias a nuestra experiencia tenemos la posibilidad de resolver su caso dentro de las 48 hs con una eficacia del 100%.',
+  titulo2 = 'LICENCIAS FINGIDAS',
+  p2 = 'Apuntamos a demostrar la veracidad o no de las “enfermedades" que causan que los empleados no se presenten en sus trabajos aún sabiendo las consecuencias de ello.',
+  titulo3 = 'LISTADOS TELEFÓNICOS',
+  p3 = 'Brindamos toda la información necesaria para aclarar sus dudas.',
+  titulo4 = 'PARADEROS',
+  p4 = 'Mantenemos bases de datos actualizadas para poder encontrar familiares o personas desaparecidas en cualquier punto del país.'
+}) => {
   return (
     <>
       <Grid
@@ -39,12 +48,7 @@ export const Servivios = () => {
             p: {xs:'5% 5% 45%', lg:' 0 5% 7%'}
           }}
         >
-          <Box
-            sx={{
-              border: 'solid 3px #000',
-              borderRadius: '5px'
-            }}
-          >
+          <Box>
             <img src={Foto5} alt="Seguimiento" className='img-servicios'/>
           </Box>
           <Box>
@@ -57,21 +61,16 @@ export const Servivios = () => {
                 fontFamily: 'Montserrat',
 
               }}
-            >Seguimiento</Typography>
+            >{titulo1}</Typography>
             <Typography
               sx={{
                 color:'fourth.main',
                 fontFamily: 'Montserrat',
               }}
-            >Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur exercitationem iste facilis perspiciatis nihil. Error doloribus at itaque.</Typography>
+            >{p1}</Typography>
           </Box>
 
-          <Box
-            sx={{
-              border: 'solid 3px #000',
-              borderRadius: '5px'
-            }}
-          >
+          <Box>
             <img src={Foto6} alt="Informes Personales" className='img-servicios'/>
           </Box>
           <Box>
@@ -84,21 +83,16 @@ export const Servivios = () => {
                 fontFamily: 'Montserrat',
 
               }}
-            >Informes Personales</Typography>
+            >{titulo2}</Typography>
             <Typography
               sx={{
                 color:'fourth.main',
                 fontFamily: 'Montserrat',
               }}
-            >Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur exercitationem iste facilis perspiciatis nihil. Error doloribus at itaque.</Typography>
+            >{p2}</Typography>
           </Box>
 
-          <Box
-            sx={{
-              border: 'solid 3px #000',
-              borderRadius: '5px',
-            }}
-          >
+          <Box>
             <img src={Foto4} alt="Informes Telefónicos" className='img-servicios'/>
           </Box>
           <Box>
@@ -111,21 +105,16 @@ export const Servivios = () => {
                 fontFamily: 'Montserrat',
 
               }}
-            >Informes Telefónicos</Typography>
+            >{titulo3}</Typography>
             <Typography
               sx={{
                 color:'fourth.main',
                 fontFamily: 'Montserrat',
               }}
-            >Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur exercitationem iste facilis perspiciatis nihil. Error doloribus at itaque.</Typography>
+            >{p3}</Typography>
           </Box>
 
-          <Box
-            sx={{
-              border: 'solid 3px #000',
-              borderRadius: '5px'
-            }}
-          >
+          <Box>
             <img src={Foto7} alt="Informes Laborales" className='img-servicios'/>
           </Box>
           <Box>
@@ -138,13 +127,13 @@ export const Servivios = () => {
                 fontFamily: 'Montserrat',
 
               }}
-            >Informes Laborales</Typography>
+            >{titulo4}</Typography>
             <Typography
               sx={{
                 color:'fourth.main',
                 fontFamily: 'Montserrat',
               }}
-            >Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur exercitationem iste facilis perspiciatis nihil. Error doloribus at itaque.</Typography>
+            >{p4}</Typography>
           </Box>
         </Box>
     </>

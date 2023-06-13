@@ -1,6 +1,9 @@
 import { Box, Grid, Typography } from '@mui/material';
 
-export const ComoTrabajamos = () => {
+export const ComoTrabajamos = ({
+  titulo = '¿Cómo trabajamos?',
+  p = 'Somos un equipo de profesionales altamente capacitados que se distingue por su excelencia y compromiso absoluto con la confidencialidad. Contamos con oficinas propias que garantizan una atención de calidad, así como privacidad y seguridad óptimas. Además, ofrecemos consultas gratuitas con nuestros abogados para brindar un servicio integral a nuestros clientes. Estamos disponibles para realizar trabajos en todas las provincias y localidades del pais, así como en países limítrofes. brindando soluciones efectivas a sus necesidades de investigación.'
+}) => {
   return (
     <>
       <Grid
@@ -22,7 +25,7 @@ export const ComoTrabajamos = () => {
               marginBottom: {xs: '10%', lg: '4%'}
           }}
         >
-            ¿Cómo trabajamos?
+            {titulo}
         </Typography>
         <Box>
             <Typography
@@ -32,7 +35,8 @@ export const ComoTrabajamos = () => {
                     fontFamily: 'Montserrat',
                     color: 'fourth.main'
                 }}
-            > Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusamus deserunt cumque eos expedita. Inventore assumenda dolores aliquid alias quibusdam sapiente provident ex aperiam! Tempore magnam enim esse debitis adipisci. Dolorem. 
+            > 
+            {p}
             </Typography>
         </Box>
       </Grid>

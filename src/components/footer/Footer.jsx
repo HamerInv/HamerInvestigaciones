@@ -1,6 +1,7 @@
 import { Box, Grid, Typography } from '@mui/material';
 import Fondo from '../../assets/img/fondoLampara.jpg';
 import Logo from '../../assets/img/logo.png';
+import WV from '../../assets/img/WV.png'
 
 const styles = {
   fondoStyle: {
@@ -32,7 +33,8 @@ export const Footer = () => {
           >
             <img src={Logo} alt="Logo Hamer Investigaciones" className='logo'/>
           </Box>
-          <Typography
+          <Box>
+            <Typography
               sx={{
                 color: 'third.main',
                 fontSize: {xs:'1rem', lg:'1.3rem'}, 
@@ -42,6 +44,15 @@ export const Footer = () => {
             >
               Descubre la verdad, confía en Hamer Investigaciones. Tu detective privado de confianza.
             </Typography>
+            <Box
+            sx={{
+              textAlign: 'right',
+              p: '2%'
+            }}
+            >
+              <a href="https://instagram.com/witis.villar?igshid=MzRlODBiNWFlZA=="><img src={WV} alt="Logo Witis & Villar Designs" className='logo-wv'/></a>
+            </Box>
+          </Box>
         </Grid>
       </div>
     )
