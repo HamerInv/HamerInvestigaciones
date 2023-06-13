@@ -39,7 +39,7 @@ export const NavBar = () => {
           minWidth:'40px',
           position: 'fixed',
           top: '2.5%',
-          right: '1%'
+          right: {xs:'4%', lg: '1%'}
         }}
         onClick={() => setOpen(true)}
         ><Menu/></Button>

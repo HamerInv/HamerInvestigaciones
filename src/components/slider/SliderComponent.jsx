@@ -14,7 +14,7 @@ function Arrow(props) {
   return (
     <div
       className={className}
-      style={{ ...style, display: "flex", background: "transparent", margin: "0 4%", zIndex: '2'}}
+      style={{ ...style, display: "flex", background: "transparent", margin: "0 4%", zIndex: "2"}}
       onClick={onClick}
     />
   );
