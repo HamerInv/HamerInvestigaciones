@@ -4,6 +4,8 @@ import { Box, Button, Grid, TextField, Typography } from '@mui/material';
 import { styled } from '@mui/material/styles';
 import Wapp from '../../../assets/img/Wapp.png';
 import Outlook from '../../../assets/img/outlook.png';
+import Swal from 'sweetalert2';
+import 'sweetalert2/dist/sweetalert2.css'
 
 export const Contacto = () => {
 
@@ -15,7 +17,7 @@ export const Contacto = () => {
     emailjs.sendForm('service_nikgrmd', 'template_8qnf14u', form.current, 'Pw3QahyAlLA7DCpOw')
       .then((result) => {
           console.log(result.text);
-          alert("¡El email se ha enviado correctamente!");
+          Swal.fire('¡Exito!', 'El email se ha enviado correctamente', 'success')
       }, (error) => {
           console.log(error.text);
           alert("Ups! Hubo un error al enviar el email.");
